@@ -6,6 +6,11 @@
   text-decoration: none;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 
 
 body {
@@ -14,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(0, 20, 13);
 }
 
 code {
