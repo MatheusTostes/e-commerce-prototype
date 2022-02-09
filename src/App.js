@@ -1,9 +1,11 @@
 import './App.css';
+import Header from './components/Header'
 <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
 
 function App() {
   return (
     <div>
+      <Header></Header>
         <div className='header'>
           <a className='logo' href="/">
             <h1>Proto</h1>
