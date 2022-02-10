@@ -33,11 +33,11 @@ function CardItem() {
           'title': 'MOUSE GAMER PICHAU HIVE S, RGB, 16000DPI, 6 BOTOES. PRETO, PGM-HVSRGB-BLK',
           'price': 'R$269,90',
         },
-        // {
-        //   'image': 'https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/3/0/301-00351-02.jpg',
-        //   'title': 'OCULOS DE REALIDADE VIRTUAL OCULUS QUEST 2, 256GB, BRANCO, 301-00351-02',
-        //   'price': 'R$5.499,99',
-        // },
+        {
+          'image': 'https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/3/0/301-00351-02.jpg',
+          'title': 'OCULOS DE REALIDADE VIRTUAL OCULUS QUEST 2, 256GB, BRANCO, 301-00351-02',
+          'price': 'R$5.499,99',
+        },
       ]
 
 
