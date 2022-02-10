@@ -5,16 +5,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  .logo {
+}
+
+.logo {
     margin: 2em;
     color: rgb(243, 243, 243);
     font-weight: 800;
     line-height: 1.5em;
-  }
-  
-  .search-box {
+}
+
+.search-box {
     height: 2em;
     width: 40%;
     background-color: rgb(243, 243, 243);
@@ -22,13 +22,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .search-box box-icon {
+}
+
+.search-box box-icon {
     margin: 0 5px;
-  }
-  
-  .search-input {
+}
+
+.search-input {
     width: 96%;
     height: 100%;
     background-color: transparent;
@@ -37,36 +37,42 @@
     color: rgb(0, 216, 169);
     text-transform: uppercase;
     font-weight: 900;
-  }
-  
-  ::selection {
+}
+
+::selection {
     background-color: rgb(0, 216, 169);
     color: rgb(243, 243, 243);
-  }
-  
-  ::placeholder {
+}
+
+::placeholder {
     color: rgba(0, 216, 169, 0.5);;
-  }
-  
-  .search-btn {
+}
+
+.clear-input {
+    margin: 0 4px;
+    font-weight: 600;
+    color: rgba(1, 99, 77, 0.4)
+}
+
+.search-btn {
     background-color: rgb(0, 216, 169);
     padding: 5px;
     margin: 0 3px;
     border-radius: 15px;
     color: rgb(243, 243, 243);
     font-weight: 600;
-  }
-  
-  .user-area {
+}
+
+.user-area {
     margin: 2em;
     display: flex;
     align-items: center;
     justify-content: center;
     color:rgb(243, 243, 243);
-    gap: 1em;
-  }
-  
-  .user-area a {
+    gap: 2em;
+}
+
+.user-area a {
     color:rgb(243, 243, 243);
     font-weight: 600;
-  }
+}

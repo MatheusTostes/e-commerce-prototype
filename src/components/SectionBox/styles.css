@@ -1,0 +1,26 @@
+.Container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+h2 {
+    width: 100%;
+    color: rgb(0, 216, 169);
+    margin-bottom: 1em;
+}
+
+.section-box {
+    background-color: rgb(255,255,255);
+    width: 65%;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.171);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 2em;
+    flex-direction: column;
+}

@@ -21,6 +21,9 @@ function Header() {
               className='search-input' 
               placeholder='Digite aqui o que quer encontrar!'
             />
+
+            <button className='clear-input'>x</button>
+
             <button className='search-btn'>Buscar</button>
           </div>
 
@@ -28,7 +31,7 @@ function Header() {
             <a href='/'>
               <box-icon 
                 name='cart' 
-                size="3em" 
+                size="2em" 
                 color="rgb(243, 243, 243)">
               </box-icon>
             </a>
