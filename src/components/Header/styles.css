@@ -48,10 +48,13 @@
     color: rgba(0, 216, 169, 0.5);;
 }
 
-.clear-input {
+.clear-input-btn {
     margin: 0 4px;
     font-weight: 600;
     color: rgba(1, 99, 77, 0.4)
+}
+.clear-input-btn:hover {
+    color: rgba(1, 99, 78, 0.699)
 }
 
 .search-btn {
@@ -62,6 +65,10 @@
     color: rgb(243, 243, 243);
     font-weight: 600;
 }
+.search-btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 .user-area {
     margin: 2em;
@@ -71,7 +78,6 @@
     color:rgb(243, 243, 243);
     gap: 2em;
 }
-
 .user-area a {
     color:rgb(243, 243, 243);
     font-weight: 600;

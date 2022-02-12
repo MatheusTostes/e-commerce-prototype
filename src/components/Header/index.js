@@ -22,7 +22,7 @@ function Header() {
               placeholder='Digite aqui o que quer encontrar!'
             />
 
-            <button className='clear-input'>x</button>
+            <button className='clear-input-btn'>x</button>
 
             <button className='search-btn'>Buscar</button>
           </div>

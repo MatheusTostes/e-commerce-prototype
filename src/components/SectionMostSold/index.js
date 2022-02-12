@@ -2,15 +2,15 @@ import './styles.css';
 
 import CardItem from "../CardItem"
 
-function SectionBox(props) {
+function SectionMostSold(props) {
     return (  
         <div className="Container">
-           <div className="section-box">
-             <h2>{ props.children }</h2>
+           <div className="section-offers-box">
+             <h2>{ props.title }</h2>
              <CardItem/>
            </div>
         </div>
     );
 }
 
-export default SectionBox;
+export default SectionMostSold;
