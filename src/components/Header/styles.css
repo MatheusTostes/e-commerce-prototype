@@ -24,6 +24,15 @@
     justify-content: center;
 }
 
+@media (max-width: 520px) {
+    .search-box input:focus {
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        height: 5%;
+        position: absolute;
+    }
+}
+
 .search-box box-icon {
     margin: 0 5px;
 }
